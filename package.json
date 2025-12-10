@@ -1,13 +1,20 @@
 {
-  "name": "@cyara/esm-register",
+  "name": "@paretio/esm-register",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js"
   },
   "author": "jmurphyau",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paretio/esm-register"
+  },
   "engines": {
     "pnpm": ">=10.15",
     "node": ">=22.18"
